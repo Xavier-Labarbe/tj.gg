@@ -7,7 +7,7 @@ import {Navbar} from "./Navbar/Navbar";
 export default function User() {
 
     const base_url = "https://euw1.api.riotgames.com"
-    const riotKey = "RGAPI-41b2ebb6-03f6-4d20-b362-4df78c7b00f1"
+    const riotKey = "RGAPI-8b68fb5e-c785-46fc-958e-cf8fb5c62347"
     const {summonerName} = useParams()
     const summonerCall = base_url + "/lol/summoner/v4/summoners/by-name/" + summonerName + "?api_key=" + riotKey
     //const history = base_url+"/lol/match/v5/matches/by-puuid/"+summoner.puuid+"/ids?start=0&count=20&api_key="+riotKey
